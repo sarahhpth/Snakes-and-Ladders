@@ -5,7 +5,7 @@ The game developed in this project is for Android, built with Unity2D. 2 main fe
 This game communicates with a model on a server, sending images as requests and receiving prediction results to be displayed to user and calculates as game score. More details about the flow can be found in the paper and in the video.
 
 ## Model
-The model used in this project is `mobilenet.keras` in folder `FER-API`. This project compared 2 different pre-trained models as its base model: VGG16 and MobileNet. Both models are trained on a modified FER2013 dataset in `Link Dataset.txt`. Both notebooks are in the folder `FER-API`, also accessible online at:
+The model used in this project is `mobilenet.keras` in [FER-API](https://github.com/sarahhpth/FER-API). This project compared 2 different pre-trained models as its base model: VGG16 and MobileNet. Both models are trained on a modified FER2013 dataset in `Link Dataset.txt`. Both notebooks are also accessible online at:
 1. https://www.kaggle.com/code/sarahhpth/mobilenet-kfold-fer-augmented (MobileNet) 
 2. https://www.kaggle.com/code/sarahhpth/vgg16-kfold-fer-augmented (VGG16)
 
